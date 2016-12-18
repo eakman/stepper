@@ -1,0 +1,38 @@
+.steps {
+  width: 583px;
+  /*width: 572px;*/
+  /*width: 423px;*/
+  height: 1000px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.step-column {
+  height: 361px;
+  /*height: 580px;*/
+  /*height: 465px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.step-container {
+  width: 60px;
+  height: 60px;
+  /*height: 50px;*/
+  /*height: 40px;*/
+  background: turquoise;
+  /*background: rgb(160, 177, 214);*/
+}
+
+.step {
+  display: block;
+  width: 60px;
+  height: 60px;
+  /*height: 50px;*/
+  /*height: 40px;*/
+  background: pink;
+}

@@ -1,0 +1,19 @@
+.start-stop-button {
+  border: none;
+  padding: 10px 20px;
+  background: rgb(160, 177, 214);
+  border-right: 1px solid #fff;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.start-stop-button:hover {
+  background: black;
+}
+
+
+.start-stop-button:focus {
+  outline: 0;
+}
