@@ -1,6 +1,6 @@
 # Stepper
 
-[Live Link](https://eakman.github.io/stepper/) (started working on it over the weekend)
+[Live Link](https://eakman.github.io/stepper/) 
 
 stepper is a web based music synthesizer and step sequencer primarily powered by mouseover input.
 
