@@ -3,21 +3,64 @@
   <head>
     <script src='lib/bundle.js'></script>
     <script type="text/javascript" src="https://tonejs.github.io/CDN/latest/Tone.js"></script>
-    
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
     <link rel="stylesheet" href="./assets/stylesheets/steps.css">
     <link rel="stylesheet" href="./assets/stylesheets/buttons.css">
     <link rel="stylesheet" href="./assets/stylesheets/main.css">
+
     <meta charset="utf-8">
     <title></title>
   </head>
+
+<aside class="side-bar">
+
+  <div class="mount">
+
+    <div class="fader-container">
+      <h1>A</h1>
+      <div control='a' class="fader a" draggable="true">
+        <div class="ui-slider-handle">
+        </div>
+      </div>
+    </div>
+    <div class="fader-container">
+      <h1>D</h1>
+      <div control='d' class="fader d" draggable="true">
+        <div class="ui-slider-handle">
+        </div>
+      </div>
+    </div>
+    <div  class="fader-container">
+      <h1>S</h1>
+      <div control='s' class="fader s" draggable="true">
+        <div class="ui-slider-handle">
+        </div>
+      </div>
+    </div>
+    <div class="fader-container">
+      <h1>R</h1>
+      <div control='r' class="fader r" draggable="true">
+        <div class="ui-slider-handle">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</aside>
+
   <header class='header group'>
     <nav class='nav'>
       <button class='start-stop-button'>start</button>
+      <button class="side-bar-toggle start-stop-button" type="button" name="button">tweak</button>
     </nav>
+
   </header>
   <body>
-
     <div class='steps'>
     </div>
   </body>
+
 </html>

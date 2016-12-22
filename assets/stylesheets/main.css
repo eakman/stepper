@@ -9,14 +9,76 @@ body, h1, header, p {
 }
 
 .header {
-  /*border-bottom: 1px solid rgb(160, 177, 214);*/
-  /*background: rgb(160, 177, 214);*/
+  display: flex;
+  background: white;
+  border-bottom: 2px solid rgb(160, 177, 214);
+  background: white;
+  align-items: center;
+  padding-right: 100px;
 }
 
 .nav {
   box-sizing: content-box;
+  float: left;
   width: 800px;
   margin: auto;
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.side-bar {
+  display: flex;
+  position: fixed;
+  float: left;
+  height: 1000px;
+  width: 300px;
+  background: white;
+  border-right: rgb(160, 177, 214);
+  visibility: hidden;
+  box-shadow: 2px -2px 5px #888888;
+  opacity: 0;
+  transition: opacity .25s linear;
+  z-index: 3;
+
+}
+
+.mount {
+  display: flex;
+  flex-direction: row;
+  width: 208px;
+  margin: 15% auto;
+  margin-left: 57px;
+  justify-content: space-between;
+}
+
+.fader-container {
+  display: flex;
+  flex-flow: column;
+  align-items: baseline;
+}
+
+.fader {
+  display: block !important;
+  float: left !important;
+  height: 140px !important;
+  width: 28px !important;
+  border: 2px solid rgb(160, 177, 214) !important;
+  margin-right: 20px !important;
+  margin-top: 13px !important;
+  align-content: center !important;
+
+}
+
+.ui-slider-handle {
+  background: rgb(142, 198, 194) !important;
+  width: 36px !important;
+  height: 28px !important;
+}
+
+.ui-slider-handle:focus {
+  outline: 0 !important;
 }
