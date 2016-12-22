@@ -33,6 +33,7 @@ body, h1, header, p {
 
 .side-bar {
   display: flex;
+  flex-direction: column;
   position: fixed;
   float: left;
   height: 1000px;
@@ -74,6 +75,18 @@ body, h1, header, p {
 
 }
 
+.pitch-fader {
+  display: block !important;
+  float: left !important;
+  height: 140px !important;
+  width: 28px !important;
+  border: 2px solid rgb(160, 177, 214) !important;
+  margin-right: 20px !important;
+  margin-top: 13px !important;
+  align-content: center !important;
+
+}
+
 .ui-slider-handle {
   background: rgb(142, 198, 194) !important;
   width: 36px !important;
@@ -90,4 +103,17 @@ body, h1, header, p {
   font-weight: bold;
   color: rgb(160, 177, 214);
   margin-left: 164px;
+}
+
+.fader-header {
+  font-family: sans-serif;
+  color: rgb(160, 177, 214);
+}
+
+.pitch {
+  margin-left: 15%;
+}
+
+.pitch-header {
+  /*margin-left: 11%;*/
 }
