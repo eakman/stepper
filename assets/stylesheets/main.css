@@ -57,6 +57,14 @@ body, h1, header, p {
   justify-content: space-between;
 }
 
+.mount-pitch-bpm {
+  display: flex;
+  flex-direction: row;
+  width: 208px;
+  margin: 15% auto;
+  justify-content: space-around;
+}
+
 .fader-container {
   display: flex;
   flex-flow: column;
@@ -76,6 +84,18 @@ body, h1, header, p {
 }
 
 .pitch-fader {
+  display: block !important;
+  float: left !important;
+  height: 140px !important;
+  width: 28px !important;
+  border: 2px solid rgb(160, 177, 214) !important;
+  margin-right: 20px !important;
+  margin-top: 13px !important;
+  align-content: center !important;
+
+}
+
+.bpm-fader {
   display: block !important;
   float: left !important;
   height: 140px !important;
@@ -111,7 +131,7 @@ body, h1, header, p {
 }
 
 .pitch {
-  margin-left: 15%;
+  margin-left: 13px;
 }
 
 .pitch-header {
