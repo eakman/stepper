@@ -1,35 +1,13 @@
-# Stepper
+# stepper
 
-[Live Link](https://eakman.github.io/stepper/) 
+[Live Link](https://eakman.github.io/stepper/)
 
-stepper is a web based music synthesizer and step sequencer primarily powered by mouseover input.
+Stepper is a web based musical instrument built using a JavaScript Web Audio framework called [Tone.js](https://github.com/Tonejs/Tone.js). The grid represents a 1-measure loop which can be started by pressong the start button. For each 8th note there's a column on the grid. There are 5 cells in each column and they're all mapped to a note of the pentatonic scale. Mouse over cells to activate or deactivate notes.
 
-* Mouse event controlled step sequencer
-* Common music synthesis controls
-  * Amplitude envelope filter
-  * Tempo
-  * Effects (delay, reverb, etc)
-  * LFO
-* Responsiveness to midi input
-* Ability to change sequencer grid size
+![alt text](./assets/grid.png)
 
-I will use a combination of JavaScript, HTML, CSS, and the ToneJS library to build it. One of the challenges I anticipate encountering is screen real estate. The grid takes up a lot of room and I want to be able to include the controls in a way which is intuitive and unobtrusive.
+## tweaking and effects
 
+Above the grid there is a preset reverb and delay as well as a tweak button. Clicking the tweak button opens up a tool bar with an [ADSR filter](http://en.wikiaudio.org/ADSR_envelope) as well as a pith control bpm control.
 
-### Grid
-
-Each columns represent an eighth note in the loop. Each square in the column represents a note of the pentatonic scale. By mousing over a square you change the color of the cell and activate the note. by mousing over it again you deactivate it.
-
-![alt text](./assets/sequencer_gridSS.png)
-
-## Side bar
-
-The side bar would house the controls. At minimum I'd like to be able to control amplitude and have some basic effects.
-
-![alt text](./assets/side_bar_controlsSS.png)
-
-##Phases
-
-* Complete sequencer grid, set up side bar, and landing page
-* Hook up effects and controls
-* make responsive to midi input
+![alt text](./assets/toolbar.png)
