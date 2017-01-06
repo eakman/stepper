@@ -199,3 +199,21 @@ ul.icons li {
 .icon > .label {
     display: none;
 }
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.name-email {
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+}
+
+.description {
+  opacity: 1.0;
+  transition: opacity .25s linear;
+}
