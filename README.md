@@ -11,3 +11,7 @@ Stepper is a web based musical instrument built using a JavaScript Web Audio fra
 Above the grid there is a preset reverb and delay as well as a tweak button. Clicking the tweak button opens up a tool bar with an [ADSR filter](http://en.wikiaudio.org/ADSR_envelope) as well as a pith control bpm control.
 
 ![alt text](./assets/toolbar.png)
+
+## use w/ midi controllers
+
+Stepper uses [WebMidi.js](https://github.com/cotejp/webmidi), a Web Midi Api framework, and can be used with midi keyboards and other types of controllers. That said, this feature's availability may vary depend on browser and controllers. Just plug your device in a refresh the page and stepper should recognize your device.

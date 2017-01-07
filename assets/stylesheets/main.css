@@ -204,7 +204,6 @@ ul.icons li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 80px;
 }
 
 .name-email {
