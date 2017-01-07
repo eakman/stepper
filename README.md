@@ -14,4 +14,4 @@ Above the grid there is a preset reverb and delay as well as a tweak button. Cli
 
 ## use w/ midi controllers
 
-Stepper uses [WebMidi.js](https://github.com/cotejp/webmidi), a Web Midi Api framework, and can be used with midi keyboards and other types of controllers. That said, this feature's availability may vary depend on browser and controllers. Just plug your device in and stepper should recognize your device. If your device was not plugged in when the page loaded you may need to refresh.
+Stepper uses [WebMidi.js](https://github.com/cotejp/webmidi), a Web Midi Api framework, and can be used with midi keyboards and other types of controllers. That said, this feature's availability may vary depend on browser and controllers. Just plug your device in and stepper should recognize your device. If your device was not plugged in when the page loaded, you may need to refresh.
