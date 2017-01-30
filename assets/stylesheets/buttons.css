@@ -10,6 +10,7 @@
   background: white;
   float: right;
   margin-left: 10px;
+  user-select: none;
 }
 
 .start-stop-button:hover {
