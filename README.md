@@ -2,7 +2,9 @@
 
 [Live Link](https://eakman.github.io/stepper/)
 
-Stepper is a web based musical instrument built using a JavaScript Web Audio framework called [Tone.js](https://github.com/Tonejs/Tone.js). The grid represents a 1-measure loop which can be started by pressing the start button. For each 8th note, there's a column on the grid. There are 5 cells in each column and they're all mapped to a note of the pentatonic scale. Mouse over cells to activate or deactivate notes.
+Stepper is a web based musical instrument built using a JavaScript, Web Audio framework called [Tone.js](https://github.com/Tonejs/Tone.js).
+
+Pressing the start button starts a 1-measure loop which is represented visually by a 8x5 cell grid. Each column of the grid is designated for an 8th note of the loop. There are 5 cells in each column and they're all mapped to a note of the pentatonic scale. Mousing over cells will activate or deactivate their respective notes.
 
 ![alt text](./assets/grid.png)
 
