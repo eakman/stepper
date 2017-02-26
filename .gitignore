@@ -1,2 +1,4 @@
 .DS_Store
 .jshintrc
+.gitignore
+bundle.js.map
